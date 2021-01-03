@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="w-screen h-screen grid place-items-center bg-gradient-to-tr from-green-500 to-green-300">
+    <div class="container max-w-full grid place-items-center">
+        <div class="w-full lg:w-3/12 px-4">
+            <div class="shadow-lg rounded-lg bg-white p-6">
+                <div class="lg:px-10 py-6">
+                    <div class="text-gray-700 text-center mb-8 font-bold">
+                        <h4 class="text-xl">Sign In</h4>
+                    </div>
+                    <form>
+                        <div class="w-full mb-6">
+                            <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                                for="email">Email</label>
+                            <input type="email" id="email"
+                                class="w-full p-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 transition duration-500 linear"
+                                placeholder="Email">
+                        </div>
+                        <div class="w-full mb-6">
+                            <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                                for="password">Password</label>
+                            <input type="password" id="password"
+                                class="w-full p-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 transition duration-500 linear"
+                                placeholder="Password">
+                        </div>
+                        <div>
+                            <label class="inline-flex items-center cursor-pointer">
+                                <input type="checkbox" class="w-4 h-4">
+                                <span class="ml-2 text-sm font-semibold text-gray-700">Remember me</span>
+                            </label>
+                        </div>
+                        <div class="text-center mt-6">
+                            <button
+                                class="bg-gray-900 text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-gray-700 transition duration-500 linear focus:outline-none w-full">
+                                Sign In
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <hr class="mt-6 border-b-1 border-gray-400">
+                <div class="p-6">
+                    <div class="text-center mb-3">
+                        <h6 class="text-gray-600 text-sm font-bold">Or Sign In With</h6>
+                    </div>
+                    <div class="btn-wrapper text-center">
+                        <button
+                            class="bg-red-500 text-white px-4 py-2 rounded focus:outline-none mr-2 uppercase font-bold text-xs shadow">Google</button>
+                        <button
+                            class="bg-gray-900 text-white px-4 py-2 rounded focus:outline-none mr-2 uppercase font-bold text-xs shadow">Github</button>
+                        <button
+                            class="bg-blue-500 text-white px-4 py-2 rounded focus:outline-none uppercase font-bold text-xs shadow">Twitter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
