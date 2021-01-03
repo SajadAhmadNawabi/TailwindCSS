@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="h-screen w-screen grid place-items-center bg-gradient-to-tr from-green-500 to-green-300">
+    <div class="container max-w-full grid place-items-center">
+        <div class="bg-white shadow-2xl w-80 rounded p-10">
+            <div class="flex justify-center ">
+                <img src="./user.jpg" class="h-20 rounded-full" alt="Profile Picture">
+            </div>
+
+            <div class="text-center mt-6">
+                <h4 class="text-green-400 text-2xl font-medium">John Smith</h4>
+                <p class="text-grey-700 text-sm">Web Developer</p>
+            </div>
+
+            <div class="my-8 flex justify-between text-center">
+                <div>
+                    <p class="text-gray-500 font-bold">35</p>
+                    <p class="text-xs mt-2 text-gray-400">Posts</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 font-bold">200</p>
+                    <p class="text-xs mt-2 text-gray-400">Comments</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 font-bold">10k</p>
+                    <p class="text-xs mt-2 text-gray-400">Likes</p>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <button class="rounded shadow-md w-full bg-green-400 text-grey-700 px-4 py-2">
+                    Follow
+                </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
